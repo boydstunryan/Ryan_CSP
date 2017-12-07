@@ -22,6 +22,10 @@
 		3F45B44B1FA229D3008E20FB /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45B44A1FA229D3008E20FB /* Internet.swift */; };
 		3F45B44D1FA229ED008E20FB /* GlobalImpact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45B44C1FA229ED008E20FB /* GlobalImpact.swift */; };
 		3F45B44F1FA23A51008E20FB /* CreativityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45B44E1FA23A51008E20FB /* CreativityController.swift */; };
+		3F8FB3981FCF02BF00DD4F6A /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FB3971FCF02BF00DD4F6A /* InternetDetailViewController.swift */; };
+		3F8FB39A1FCF030200DD4F6A /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FB3991FCF030200DD4F6A /* InternetMasterViewController.swift */; };
+		3FC616DE1FD6F4F000131112 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC616DD1FD6F4F000131112 /* DrawingView.swift */; };
+		3FD116A61FD99C7800AF48C9 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD116A51FD99C7800AF48C9 /* ArtCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		3F45B44A1FA229D3008E20FB /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 		3F45B44C1FA229ED008E20FB /* GlobalImpact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpact.swift; sourceTree = "<group>"; };
 		3F45B44E1FA23A51008E20FB /* CreativityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreativityController.swift; path = Ryan_CSP/CreativityController.swift; sourceTree = SOURCE_ROOT; };
+		3F8FB3971FCF02BF00DD4F6A /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		3F8FB3991FCF030200DD4F6A /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
+		3FC616DD1FD6F4F000131112 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		3FD116A51FD99C7800AF48C9 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +158,9 @@
 				3F45B4481FA229BF008E20FB /* Programming.swift */,
 				3F45B44A1FA229D3008E20FB /* Internet.swift */,
 				3F45B44C1FA229ED008E20FB /* GlobalImpact.swift */,
+				3F8FB3971FCF02BF00DD4F6A /* InternetDetailViewController.swift */,
+				3F8FB3991FCF030200DD4F6A /* InternetMasterViewController.swift */,
+				3FD116A51FD99C7800AF48C9 /* ArtCell.swift */,
 				3F45B43F1FA228ED008E20FB /* Model */,
 			);
 			path = Controller;
@@ -161,6 +172,7 @@
 				3F45B40E1FA21F80008E20FB /* Main.storyboard */,
 				3F45B44E1FA23A51008E20FB /* CreativityController.swift */,
 				3F45B4131FA21F80008E20FB /* LaunchScreen.storyboard */,
+				3FC616DD1FD6F4F000131112 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -316,8 +328,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F45B4451FA22993008E20FB /* DataAndInfo.swift in Sources */,
+				3FD116A61FD99C7800AF48C9 /* ArtCell.swift in Sources */,
+				3F8FB39A1FCF030200DD4F6A /* InternetMasterViewController.swift in Sources */,
+				3F8FB3981FCF02BF00DD4F6A /* InternetDetailViewController.swift in Sources */,
 				3F45B4411FA22958008E20FB /* Creativity.swift in Sources */,
 				3F45B44B1FA229D3008E20FB /* Internet.swift in Sources */,
+				3FC616DE1FD6F4F000131112 /* DrawingView.swift in Sources */,
 				3F45B40D1FA21F80008E20FB /* AlgorithmsViewController.swift in Sources */,
 				3F45B4431FA22971008E20FB /* Abstraction.swift in Sources */,
 				3F45B44F1FA23A51008E20FB /* CreativityController.swift in Sources */,

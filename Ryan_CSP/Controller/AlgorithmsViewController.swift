@@ -23,12 +23,12 @@ class AlgorithmViewController: UIViewController {
         let stepOne :String = "First, create the project on eclipse \n"
         let stepTwo :String = "Second, create packages for the project \n"
         let stepThree :String = "Third, create the classes in the packages \n"
-        let stepFour :String = "Fourth, create a github repository for the project \n"
-        let stepFive :String = "Fifth, commit the project to the GitHub repository \n"
-        let StepSix :String = "Sixth, publish the repository online \n"
+        //let stepFour :String = "Fourth, create a github repository for the project \n"
+        //let stepFive :String = "Fifth, commit the project to the GitHub repository \n"
+        //let StepSix :String = "Sixth, publish the repository online \n"
         
         //TODO: Finish adding all steps to the algorithm
-        algorithmSteps = [stepOne, stepTwo, stepThree, stepFour, stepFive, stepSix]
+        algorithmSteps = [stepOne, stepTwo, stepThree]
         
         let attributesDictionary = [NSAttributedStringKey.font : algorithmText.font]
         let fullAttributedString = NSMutableAttributedString(string: algorithm, attributes: attributesDictionary)
