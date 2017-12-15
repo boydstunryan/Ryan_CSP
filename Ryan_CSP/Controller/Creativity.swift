@@ -86,7 +86,7 @@ public class CreativityViewController : UICollectionViewController, UICollection
         if indexPath == largePhotoIndexPath
         {
             let art = artSelection[indexPath.row]
-            let size - collectionView.bounds.size
+            let size -= collectionView.bounds.size
             let widthScale = (size.width / art!.size.width) * CGFloat(0.80)
             let largeSize = CGSize(width: art!.size.width * widthScale, height: art!.size.height * widthScale)
             
