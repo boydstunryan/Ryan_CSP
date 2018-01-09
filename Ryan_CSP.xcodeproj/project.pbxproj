@@ -17,6 +17,10 @@
 		3F06B7B51FE18C4D00F631EA /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06B7B01FE18C4D00F631EA /* Player.swift */; };
 		3F06B7B61FE18C4D00F631EA /* PlayerLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06B7B11FE18C4D00F631EA /* PlayerLaser.swift */; };
 		3F06B7B71FE18C4D00F631EA /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06B7B21FE18C4D00F631EA /* Projectile.swift */; };
+		3F0B5EB72005117E000B8A4F /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B5EB62005117E000B8A4F /* DataViewController.swift */; };
+		3F0B5EB9200511A9000B8A4F /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B5EB8200511A9000B8A4F /* BucketItemCell.swift */; };
+		3F0B5EBB200513FC000B8A4F /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B5EBA200513FC000B8A4F /* BucketItem.swift */; };
+		3F0B5EBD200515F7000B8A4F /* bucket.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3F0B5EBC200515F7000B8A4F /* bucket.csv */; };
 		3F45B40D1FA21F80008E20FB /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45B40C1FA21F80008E20FB /* AlgorithmsViewController.swift */; };
 		3F45B4101FA21F80008E20FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F45B40E1FA21F80008E20FB /* Main.storyboard */; };
 		3F45B4121FA21F80008E20FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F45B4111FA21F80008E20FB /* Assets.xcassets */; };
@@ -71,6 +75,10 @@
 		3F06B7C21FE18D0500F631EA /* laser sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laser sound.mp3"; sourceTree = "<group>"; };
 		3F06B7C31FE18D0500F631EA /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "extra sound.mp3"; sourceTree = "<group>"; };
 		3F06B7C41FE18D0500F631EA /* boss sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "boss sound.mp3"; sourceTree = "<group>"; };
+		3F0B5EB62005117E000B8A4F /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		3F0B5EB8200511A9000B8A4F /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
+		3F0B5EBA200513FC000B8A4F /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		3F0B5EBC200515F7000B8A4F /* bucket.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket.csv; path = ../../../../../Downloads/bucket.csv; sourceTree = "<group>"; };
 		3F45B4071FA21F80008E20FB /* Ryan_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ryan_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F45B40C1FA21F80008E20FB /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		3F45B40F1FA21F80008E20FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -141,6 +149,7 @@
 				3F06B7B01FE18C4D00F631EA /* Player.swift */,
 				3F06B7B11FE18C4D00F631EA /* PlayerLaser.swift */,
 				3F06B7B21FE18C4D00F631EA /* Projectile.swift */,
+				3F0B5EBA200513FC000B8A4F /* BucketItem.swift */,
 			);
 			name = Model;
 			path = "New Group1";
@@ -157,6 +166,15 @@
 			);
 			name = Sounds;
 			path = "New Group2";
+			sourceTree = "<group>";
+		};
+		3F0B5EB520051156000B8A4F /* DataView */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B5EB62005117E000B8A4F /* DataViewController.swift */,
+				3F0B5EB8200511A9000B8A4F /* BucketItemCell.swift */,
+			);
+			path = DataView;
 			sourceTree = "<group>";
 		};
 		3F45B3FE1FA21F80008E20FB = {
@@ -223,6 +241,7 @@
 				3F8FB3971FCF02BF00DD4F6A /* InternetDetailViewController.swift */,
 				3F8FB3991FCF030200DD4F6A /* InternetMasterViewController.swift */,
 				3FD116A51FD99C7800AF48C9 /* ArtCell.swift */,
+				3F0B5EB520051156000B8A4F /* DataView */,
 				3F06B7C51FE18D0F00F631EA /* Sounds */,
 				3F06B7B81FE18C5900F631EA /* Model */,
 			);
@@ -243,6 +262,7 @@
 		3F45B43E1FA228E0008E20FB /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				3F0B5EBC200515F7000B8A4F /* bucket.csv */,
 				3F06B7911FE1787900F631EA /* StarField.sks */,
 				3F06B78F1FE1777700F631EA /* Utilities.swift */,
 				3F45B4111FA21F80008E20FB /* Assets.xcassets */,
@@ -360,6 +380,7 @@
 			files = (
 				3F45B4151FA21F80008E20FB /* LaunchScreen.storyboard in Resources */,
 				3F45B4121FA21F80008E20FB /* Assets.xcassets in Resources */,
+				3F0B5EBD200515F7000B8A4F /* bucket.csv in Resources */,
 				3F45B4101FA21F80008E20FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,7 +410,10 @@
 				3F06B79B1FE18BAF00F631EA /* StartScene.swift in Sources */,
 				3FD116A61FD99C7800AF48C9 /* ArtCell.swift in Sources */,
 				3F06B79A1FE18BAF00F631EA /* GameScene.swift in Sources */,
+				3F0B5EBB200513FC000B8A4F /* BucketItem.swift in Sources */,
+				3F0B5EB72005117E000B8A4F /* DataViewController.swift in Sources */,
 				3F06B7B51FE18C4D00F631EA /* Player.swift in Sources */,
+				3F0B5EB9200511A9000B8A4F /* BucketItemCell.swift in Sources */,
 				3F8FB39A1FCF030200DD4F6A /* InternetMasterViewController.swift in Sources */,
 				3F06B7B61FE18C4D00F631EA /* PlayerLaser.swift in Sources */,
 				3F06B7961FE181E900F631EA /* AppDelegate.swift in Sources */,
